@@ -3,7 +3,7 @@
 .p-header{
   background-color: black;
   display: flex;
-  height: 70;
+  height: 70px;
 
 }
 .p-header > a{
@@ -26,7 +26,7 @@
 .navi a{
   text-transform: uppercase;
   text-decoration: none;
-  color:#CDD0D0
+  color:#CDD0D0;
   display: inline-block;
 }
 .active a{
@@ -55,7 +55,7 @@
 }
 .zelda-group{
   display: flex;
-  align-items: left;
+  align-items: flex-start;
   justify-content:space-between;
   flex-wrap: wrap;
 }
