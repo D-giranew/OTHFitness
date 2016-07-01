@@ -1,40 +1,115 @@
 
-.header {
-    background-color:black;
-    color:white;
-    text-align:center;
-    padding:5px;
+
+.p-header{
+  background-color: black;
+  display: flex;
+  height: 70;
+
 }
-.nav {
-    line-height:50px;
-    height:200px;
-    width:160px;
-    font-family: sans-serif;
-    text-decoration: inherit;
-    padding:10px;
-    text-align: left;
+.p-header > a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color:#62DEBE;
+
+
+}
+
+.navi ul {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+
+
+
+}
+.navi a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#CDD0D0
+  display: inline-block;
+}
+.active a{
+  font-weight: bold;
+  color:#62DEBE;
+  border-width: thick;
+  padding:10px;
+
 }
 .section {
-    width:350px;
     padding:10px
-    float:right;
 }
-.footer {
-    background-color:white;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px;
+.section p{
+  width:350px
 }
+.main-body img {
+  height:300px;
+  width:300px;
+}
+.link-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.zelda-group{
+  display: flex;
+  align-items: left;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+.zelda{
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  border: 2px solid black;
+  margin: 1em;
+
+}
+.zelda-group img{
+  max-height: 300px;
+  max-width: 300px;
+}
+.link{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border: 2px solid black;
+  margin: 1em;
 
 
+}
+.link-group img{
+  max-height: 300px;
+  max-width: 300px;
+}
+#icon{
+  background-image: url(/home/giranew/Pictures/10011282_730055080350106_786076714_n.jpg);
+background-size: contain;
+}
+#plumbing{
+  background-image:url(/home/giranew/Pictures/11390313_920113581381605_1045647625672935050_n2_zpsdjeglahx.jpg);
+    background-size: contain;
+}
+#otaku{
+  background-image:url(/home/giranew/Pictures/12531185_110803079320739_1290645236_n_zpsv083hgwa.jpg);
+    background-size: contain;
+}
+#love{
+  background-image:url(/home/giranew/Pictures/12187742_968397896558306_4371007291088525587_n_zpslke6cu17.jpg);
+    background-size: contain;
+}
 body{
-  font-family: helvetica, sans-serif;
-  margin: 0 auto;
-  max-width: 600px;
-  background: black;
+  font-family:'Roboto', sans-serif;
+  background-color: white;
+
 }
-header{
+@media (max-width: 600px){
+
+
+}
+/*header{
   font-family: helvetica, sans-serif;
   font-size: 60px;
   text-align: center;
@@ -42,8 +117,9 @@ header{
   max-width: 600px;
   background: red;
 }
-p {
-
+*/
+p{
+  text-align: left;
 }
 h1{
   font-family: sans-serif;
@@ -53,7 +129,8 @@ h1{
 }
 h2{
   font-family: sans-serif;
+  width: 350px;
+  text-align: left;
   padding: 5px;
-  margin: auto;
   color:#090234;
 }
